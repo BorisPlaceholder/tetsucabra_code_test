@@ -1,5 +1,6 @@
+import tetsucode
 def test_tetsucabrafunction():
-  assert tetsucabrafunction('TETSUCABRA') == "TETSUCABRA!"
-  assert tetsucabrafunction('NOTTETSU') == ":("
-  assert tetsucabrafunction('e') == ":("
-  assert tetsucabrafunction('E') == ":("
+  assert tetsucode.tetsucabrafunction('TETSUCABRA') == "TETSUCABRA!"
+  assert tetsucode.tetsucabrafunction('NOTTETSU') == ":("
+  assert tetsucode.tetsucabrafunction('e') == ":("
+  assert tetsucode.tetsucabrafunction('E') == ":("
